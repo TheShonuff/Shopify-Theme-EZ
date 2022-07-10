@@ -68,7 +68,7 @@
         "description": "<p>All orders will be delivered on Sunday.<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "weekly-menu",
         "products_to_show": 12,
         "columns_desktop": 2,
         "full_width": false,
