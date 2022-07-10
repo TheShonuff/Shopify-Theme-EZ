@@ -2,6 +2,19 @@
   "sections": {
     "16574212667d64e7a2": {
       "type": "image-banner",
+      "blocks": {
+        "6f0af873-569e-4daf-b3a5-e21ba1ffb868": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "6f0af873-569e-4daf-b3a5-e21ba1ffb868"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/collection-header.jpg",
         "image_overlay_opacity": 0,
@@ -18,8 +31,9 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": true,
         "color_scheme": "background-1"
       }
