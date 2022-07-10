@@ -214,12 +214,29 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1657424977d941d52b": {
+      "type": "apps",
+      "blocks": {
+        "3b5e11b3-bf66-4cc9-a632-f0fd30077e76": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "3b5e11b3-bf66-4cc9-a632-f0fd30077e76"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "1657424977d941d52b"
   ]
 }
