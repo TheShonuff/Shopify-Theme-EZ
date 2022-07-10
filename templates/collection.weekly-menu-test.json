@@ -84,12 +84,12 @@
     "165741994262441a60": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Meals",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "meals",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
