@@ -150,20 +150,11 @@
               "heading": "Info",
               "menu": "footer"
             }
-          },
-          "footer-2": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>We aim to provide simply fresh meals to your door every week..<\/p>"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "background-2",
