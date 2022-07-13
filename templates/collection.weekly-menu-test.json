@@ -62,7 +62,7 @@
       "settings": {
         "title": "Protein Bites",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dictum tellus. Vestibulum quis sodales arcu. In sed tortor vitae nulla lobortis lacinia volutpat id nunc. In ac rutrum urna. Aliquam erat volutpat. Integer nec est at massa sodales venenatis. Duis eu mauris lacinia, rhoncus leo a, ullamcorper nisi. Praesent a dapibus felis.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "protein-bites",
@@ -89,7 +89,7 @@
       "settings": {
         "title": "Overnight Oats",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dictum tellus. Vestibulum quis sodales arcu. In sed tortor vitae nulla lobortis lacinia volutpat id nunc. In ac rutrum urna. Aliquam erat volutpat. Integer nec est at massa sodales venenatis. Duis eu mauris lacinia, rhoncus leo a, ullamcorper nisi. Praesent a dapibus felis.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "overnight-oats",
