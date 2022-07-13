@@ -51,6 +51,17 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "blocks": {
+        "2b7ffe5f-6f1f-4e01-884b-eb71819a44ed": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to EZ Eats AZ. We're a locally grown business in the heart of Gilbert Arizona providing meal prep service for the community. All our meals are freshly prepared on Saturday and delivered to your door on Sunday. Our menu is updated every Tuesday with a fresh new selection. Be Sure to subscribe to our email list and follow us on Instagram to learn about deals and fresh new menu items. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2b7ffe5f-6f1f-4e01-884b-eb71819a44ed"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
