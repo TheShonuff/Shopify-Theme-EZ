@@ -58,10 +58,20 @@
           "settings": {
             "text": "<p>EZ eats AZ is a delivered meal service located in Gilbert, Arizona. We offer fully prepared meals and snacks crafted from quality ingredients and seasonal selections. Created in 2021, our goal is to help people be more present in their active and busy lives by taking away the stress that planning, shopping and cooking healthy food can bring. We believe that everyone deserves wholesome and delicious food without sacrifice.<\/p><p>Our weekly menu is filled with family favorites, and all Marco details listed.<\/p><p>Simply order and your EZ eats AZ goods arrive at your door on Sunday, getting you set for the week ahead.<\/p>"
           }
+        },
+        "a70ce1de-779b-42c6-8c5b-c458f71eef78": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
-        "2b7ffe5f-6f1f-4e01-884b-eb71819a44ed"
+        "2b7ffe5f-6f1f-4e01-884b-eb71819a44ed",
+        "a70ce1de-779b-42c6-8c5b-c458f71eef78"
       ],
       "settings": {
         "desktop_content_position": "center",
