@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -15,10 +14,16 @@
           "type": "shopify:\/\/apps\/etsy-photo-reviews\/blocks\/fullpage_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
           "settings": {
           }
+        },
+        "f690e4fd-fa43-4045-8d97-947fca30e6f6": {
+          "type": "shopify:\/\/apps\/etsy-photo-reviews\/blocks\/badge_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "225dbca2-9ec1-4f49-b048-dbbc25803189"
+        "225dbca2-9ec1-4f49-b048-dbbc25803189",
+        "f690e4fd-fa43-4045-8d97-947fca30e6f6"
       ],
       "settings": {
         "include_margins": true
