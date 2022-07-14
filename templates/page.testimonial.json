@@ -28,10 +28,28 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1657773617efbb8799": {
+      "type": "apps",
+      "blocks": {
+        "0cc396da-758c-42f0-b526-5e1011c899ae": {
+          "type": "shopify:\/\/apps\/testimonials-master\/blocks\/app-block\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
+          "settings": {
+            "embed-code": ""
+          }
+        }
+      },
+      "block_order": [
+        "0cc396da-758c-42f0-b526-5e1011c899ae"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "16577720928395f4c6"
+    "16577720928395f4c6",
+    "1657773617efbb8799"
   ]
 }
