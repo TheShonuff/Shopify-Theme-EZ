@@ -35,7 +35,7 @@
         "0cc396da-758c-42f0-b526-5e1011c899ae": {
           "type": "shopify:\/\/apps\/testimonials-master\/blocks\/app-block\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
           "settings": {
-            "embed-code": ""
+            "embed-code": "<div id=\"c1g_testimonial\"><\/div><script src=\"https:\/\/www.cloudonegalaxy.com\/cloud\/testimonial.js\" data-shop=\"ez-eats-az.myshopify.com\" defer><\/script>"
           }
         }
       },
