@@ -164,13 +164,13 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/collection-header.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -178,17 +178,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>EZ eats AZ is a delivered meal service located in Gilbert, Arizona. We offer fully prepared meals and snacks crafted from quality ingredients and seasonal selections. Created in 2021, our goal is to help people be more present in their active and busy lives by taking away the stress that planning, shopping and cooking healthy food can bring. We believe that everyone deserves wholesome and delicious food without sacrifice.<\/p><p>Our weekly menu is filled with family favorites, and all Marco details listed.<\/p><p>Simply order and your EZ eats AZ goods arrive at your door on Sunday, getting you set for the week ahead.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -196,15 +187,14 @@
       },
       "block_order": [
         "column1",
-        "column2",
-        "column3"
+        "column2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
