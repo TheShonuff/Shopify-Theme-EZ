@@ -66,8 +66,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "",
-            "text": "<p><strong>EZ Eats AZ <\/strong>is a delivery meal prep service located in <strong>Gilbert, Arizona.<\/strong> We offer fully prepared meals crafted from quality ingredients and seasonal selections. <\/p><p>Created in 2021, by a local Gilbert Mom, EZ Eats AZ was designed to make your life easier.  Our goal is to help people be more present in their active and busy lives by taking away the stress that planning, shopping and cooking can bring. We believe that everyone deserves wholesome and delicious food without sacrifice.<\/p><p><\/p><p><\/p><p>When you order from EZ Eats AZ you will notice we are more than a meal prep service.  We take pride in our meals and will go the extra mile to provide quality and fresh meals each week.<\/p><p><\/p><p>Simply order and your EZ eats AZ goods arrive at your door on Sunday, getting you set for the week ahead.<\/p>",
+            "title": "About Us",
+            "text": "<p><strong>EZ Eats AZ <\/strong>is a delivery meal prep service located in <strong>Gilbert, Arizona.<\/strong> We offer fully prepared meals crafted from quality ingredients and seasonal selections. <\/p><p>Created in 2021, by a local Gilbert Mom, EZ Eats AZ was designed to make your life easier.  Our goal is to help people be more present in their active lives by taking away the stress that planning, shopping and cooking can bring. We believe that everyone deserves wholesome and delicious food without sacrifice.<\/p><p><\/p><p><\/p><p>When you order from EZ Eats AZ you will notice we are more than a meal prep service.  We take pride in our meals and will go the extra mile to provide quality and fresh meals each week.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -132,7 +132,7 @@
       "settings": {
         "title": "This weeks selection",
         "heading_size": "h1",
-        "description": "<p>All orders will be delivered on Sunday.<\/p>",
+        "description": "<p>Orders will be Ready for Delivery or Pickup on Sunday<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "weekly-menu",
