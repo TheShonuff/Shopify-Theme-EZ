@@ -16,7 +16,7 @@
         "6f0af873-569e-4daf-b3a5-e21ba1ffb868"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/collection-header.jpg",
+        "image": "shopify:\/\/shop_images\/background-img.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -140,6 +140,7 @@
     },
     "1657420029e8a39da8": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Desert",
         "heading_size": "h2",
