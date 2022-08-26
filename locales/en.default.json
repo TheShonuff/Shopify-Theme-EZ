@@ -432,7 +432,8 @@
         },
         "shipping_method_not_available": "There was an error processing you're order. Please check if you have met the $50 order minimum or that you're within the delivery range.",
         "shipping_method_not_available_generic": {
-          "other": "There was an error processing you're order. Please check if you have met the $50 order minimum or that you're within the delivery range."
+          "other": "There was an error processing you're order. Please check if you have met the $50 order minimum or that you're within the delivery range.",
+          "one": "There was an error processing you're order. Please check if you have met the $50 order minimum or that you're within the delivery range."
         }
       },
       "delivery_options": {
