@@ -428,7 +428,7 @@
     "checkout": {
       "shipping_errors": {
         "shipping_method_not_available_updated": {
-          "other": "We're sorry that we're unable to complete you're order at this time. Please check that you're shopping cart has met the $50 minimum order or that you're within our delivery zone."
+          "other": "We're sorry that we're unable to complete you're order at this time. Please check that you're shopping cart has met the $50 minimum order or that you're within our delivery zone.."
         }
       },
       "delivery_options": {
