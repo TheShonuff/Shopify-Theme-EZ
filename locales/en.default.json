@@ -437,7 +437,7 @@
         }
       },
       "delivery_options": {
-        "pick_up_in_five_or_more_days": "Delivery will happen on Sunday"
+        "pick_up_in_five_or_more_days": "Pickup will be available on Sunday"
       }
     }
   }
