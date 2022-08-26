@@ -430,6 +430,9 @@
         "shipping_method_not_available_updated": {
           "other": "We're sorry that we're unable to complete you're order at this time. Please check that you're shopping cart has met the $50 minimum order or that you're within our delivery zone."
         }
+      },
+      "delivery_options": {
+        "pick_up_in_five_or_more_days": "Delivery will happen on Sunday"
       }
     }
   }
