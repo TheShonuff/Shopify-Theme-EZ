@@ -98,6 +98,7 @@
     "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "currency_code_enabled": true,
     "show_vendor": false,
+    "cart_drawer_collection": "december-4th",
     "checkout_header_image": "shopify:\/\/shop_images\/background-img.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/EZ_Eats_Black.png",
     "checkout_logo_position": "left",
