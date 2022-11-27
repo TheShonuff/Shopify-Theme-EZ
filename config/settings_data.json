@@ -98,7 +98,7 @@
     "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "currency_code_enabled": true,
     "show_vendor": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/android-chrome-192x192.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/EZ_Eats_Black.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
