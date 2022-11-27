@@ -62,8 +62,8 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
+            "heading": "Ingredients",
+            "icon": "plant",
             "content": "",
             "page": ""
           }
@@ -90,8 +90,8 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
+            "heading": "Storage Instructions",
+            "icon": "stopwatch",
             "content": "<p>Please immediately refrigerate your meals. We recommend finishing all your meals by Friday.<\/p>",
             "page": ""
           }
