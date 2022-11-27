@@ -12,13 +12,13 @@
       "type": "apps",
       "blocks": {
         "225dbca2-9ec1-4f49-b048-dbbc25803189": {
-          "type": "shopify:\/\/apps\/etsy-photo-reviews\/blocks\/fullpage_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
+          "type": "shopify:\/\/apps\/import-etsy-facebook-reviews\/blocks\/fullpage_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
           "disabled": true,
           "settings": {
           }
         },
         "f690e4fd-fa43-4045-8d97-947fca30e6f6": {
-          "type": "shopify:\/\/apps\/etsy-photo-reviews\/blocks\/badge_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
+          "type": "shopify:\/\/apps\/import-etsy-facebook-reviews\/blocks\/badge_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
           "disabled": true,
           "settings": {
           }
