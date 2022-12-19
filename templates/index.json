@@ -130,12 +130,66 @@
     "01b9ee00-894c-4e52-8195-28e5515a024f": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Meals",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "meals",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e8fe9c7e-e0d4-4a63-8f80-924b8a1dec95": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Protein Bits",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "protein-bites",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "488b67d5-cbf5-4e34-8bcc-80ef761e76c1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Overnight Oats",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "overnight-oats",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -159,6 +213,8 @@
     "image_banner",
     "multicolumn",
     "rich_text",
-    "01b9ee00-894c-4e52-8195-28e5515a024f"
+    "01b9ee00-894c-4e52-8195-28e5515a024f",
+    "e8fe9c7e-e0d4-4a63-8f80-924b8a1dec95",
+    "488b67d5-cbf5-4e34-8bcc-80ef761e76c1"
   ]
 }
