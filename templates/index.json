@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Hand Made in the ❤️ of Gilbert",
+            "heading": "Freshly Made in the ❤️ of Gilbert",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Fresh Meals made every single week",
+            "text": "Meals made fresh every single week",
             "text_style": "body"
           }
         },
@@ -36,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/happy-family.webp",
+        "image_2": "shopify:\/\/shop_images\/Screenshot_2023-02-01_at_5.28.56_PM.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
