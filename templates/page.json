@@ -53,22 +53,50 @@
         "padding_bottom": 36
       }
     },
-    "1bd7b9e5-2aa3-42fa-8817-15c57b3a1627": {
-      "type": "slideshow",
+    "58afb63d-8325-4617-a2a4-16a9a10e6f2d": {
+      "type": "collage",
+      "blocks": {
+        "7947b41e-ebfe-48d3-8a59-ef1a04808c13": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "image_padding": true
+          }
+        },
+        "3e2a3dbf-b371-4d44-aa04-40ffa29fd392": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-14_at_7.34.24_PM.png",
+            "image_padding": true
+          }
+        },
+        "49498f4e-22d7-4acc-b80c-eaca7f930806": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-14_at_7.35.17_PM.png",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "7947b41e-ebfe-48d3-8a59-ef1a04808c13",
+        "3e2a3dbf-b371-4d44-aa04-40ffa29fd392",
+        "49498f4e-22d7-4acc-b80c-eaca7f930806"
+      ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "0fc172df-7e57-4484-b2e2-ede0ecf1adc1",
-    "1bd7b9e5-2aa3-42fa-8817-15c57b3a1627"
+    "58afb63d-8325-4617-a2a4-16a9a10e6f2d"
   ]
 }
