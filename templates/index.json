@@ -208,7 +208,7 @@
     "1f89af63-d929-4073-bcc0-0fb726ddd0ce": {
       "type": "contact-form",
       "settings": {
-        "heading": "We are here to help:)",
+        "heading": "We are here to help :)",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 16,
