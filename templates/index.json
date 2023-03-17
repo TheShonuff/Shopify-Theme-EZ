@@ -57,7 +57,7 @@
         "description": "<p>Take a look at our deliciously, fresh made menu this week!<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "week-test",
+        "collection": "delivery-sunday-march-26-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
