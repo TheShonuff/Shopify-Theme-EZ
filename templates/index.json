@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Freshly Made in the ❤️ of Gilbert",
+            "heading": "Made in the ❤️ of Gilbert",
             "heading_size": "h0"
           }
         },
@@ -14,7 +14,7 @@
           "type": "text",
           "settings": {
             "text": "Meals made fresh every single week",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button": {
