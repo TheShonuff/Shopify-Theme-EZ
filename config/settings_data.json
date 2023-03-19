@@ -179,7 +179,16 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "7457738957953183798": {
+        "type": "shopify:\/\/apps\/magical-vacation-mode\/blocks\/magical-vacation-mode\/0e1e5a21-6730-48a6-a159-50aec253b0fd",
+        "disabled": false,
+        "settings": {
+          "font": "open_sans_n4"
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
