@@ -86,6 +86,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "914367ea-d26a-42e1-b62d-10f07ce47d77": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Special Request",
+            "icon": "heart",
+            "content": "<p>Message us if you have Questions or Requests<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -100,7 +109,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "914367ea-d26a-42e1-b62d-10f07ce47d77"
       ],
       "settings": {
         "enable_sticky_info": true,
