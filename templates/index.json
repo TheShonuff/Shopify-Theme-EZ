@@ -54,10 +54,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<p>Take a Look at Our Fresh Menu This Week!<\/p>",
+        "description": "<p><strong>Take a Look at Our Fresh Menu This Week!<\/strong><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "delivery-sunday-4-16-23",
+        "collection": "delivery-sunday-april-23-2023",
         "products_to_show": 11,
         "columns_desktop": 5,
         "full_width": false,
