@@ -187,6 +187,12 @@
         "settings": {
           "font": "chivo_n4"
         }
+      },
+      "16719881837553823673": {
+        "type": "shopify:\/\/apps\/import-etsy-facebook-reviews\/blocks\/scripts\/f56a1240-13ad-4309-8167-3248665cd1f3",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
