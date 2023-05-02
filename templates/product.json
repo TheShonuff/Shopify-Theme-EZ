@@ -81,12 +81,6 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "914367ea-d26a-42e1-b62d-10f07ce47d77": {
           "type": "collapsible_tab",
           "settings": {
@@ -94,6 +88,12 @@
             "icon": "heart",
             "content": "<p>Message us if you have Questions or Requests<\/p>",
             "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -109,8 +109,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "914367ea-d26a-42e1-b62d-10f07ce47d77"
+        "914367ea-d26a-42e1-b62d-10f07ce47d77",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
