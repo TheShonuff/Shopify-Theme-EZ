@@ -54,7 +54,7 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<p><\/p><p><em>Delivery or Pickup on Sunday July 30th<\/em><\/p>",
+        "description": "<h2><strong>Get 1 FREE Overnight Oats with the Purchase of 2<\/strong><\/h2><p><em><strong>Delivery or Pickup on Sunday July 30th<\/strong><\/em><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "sunday-july-30-2023",
