@@ -57,7 +57,7 @@
           "settings": {
             "heading": "Pickup or Delivery",
             "icon": "truck",
-            "content": "<p>Check your delivery, Zone. <em><strong>There is a minimum of 5 meals <\/strong><\/em>to qualify for delivery. <\/p><p>We deliver on Sunday 7:00am to 2:00pm. <\/p><p>A driver will message when they are roughly 10 to 15 minutes away from completing your delivery. Please respond to the message with a thumbs up that you have received your order.  Our driver will leave meals on doorstep.<\/p><p>If you choose to pick up your order. You can <strong>pickup in Gilbert<\/strong> from 9am-11:30am. The pickup address will be messaged to you after the payment has been processed. <\/p><p><\/p>",
+            "content": "<p>Check your delivery, Zone. <em><strong>There is a minimum of 5 meals <\/strong><\/em>to qualify for delivery. <\/p><p>We deliver on Sunday 7:00am to 2:00pm. <\/p><p>A driver will message when they are roughly 10 to 15 minutes away from completing your delivery. Please respond to the message with a thumbs up that you have received your order.  Our driver will leave meals on doorstep.<\/p><p>If you choose to pick up your order. You can <strong>pickup in Gilbert<\/strong> from 8am-11:00am. The pickup address will be messaged to you after the payment has been processed. <\/p><p><\/p>",
             "page": ""
           }
         },
@@ -141,7 +141,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -162,6 +161,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
