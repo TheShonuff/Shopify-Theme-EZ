@@ -54,10 +54,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h2><\/h2><p><em><strong>Delivery or Pickup on Sunday August 13th<\/strong><\/em><\/p>",
+        "description": "<h2><\/h2><p><em><strong>Delivery or Pickup on Sunday August 20th<\/strong><\/em><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "sunday-august-13-2023",
+        "collection": "sunday-august-20-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -146,7 +146,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "2b7ffe5f-6f1f-4e01-884b-eb71819a44ed": {
           "type": "text",
@@ -168,6 +167,7 @@
         "2b7ffe5f-6f1f-4e01-884b-eb71819a44ed",
         "a70ce1de-779b-42c6-8c5b-c458f71eef78"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
