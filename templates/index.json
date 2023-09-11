@@ -54,10 +54,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h2><\/h2><p><em><strong>Delivery or Pickup on Sunday September 10th<\/strong><\/em><\/p>",
+        "description": "<h2><\/h2><p><em><strong>Delivery or Pickup on Sunday September 17th<\/strong><\/em><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "sunday-september-10-2023",
+        "collection": "sunday-september-17-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
