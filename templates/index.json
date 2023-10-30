@@ -54,10 +54,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h2>**SATURDAY AFTERNOON DELIVERY***<\/h2><h2>October 21st<\/h2><h4>Deliveries this Week will be <strong>Saturday Afternoon<\/strong> 4:00-7:00PM<\/h4><h4>Pickups: in Gilbert Sunday Morning 8:00-11:00AM<\/h4>",
+        "description": "<h4>Delivery Day: Sunday November 5, 2023<\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "sunday-october-29-2023",
+        "collection": "november-5-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
