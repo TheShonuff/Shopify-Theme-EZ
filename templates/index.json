@@ -81,7 +81,7 @@
       "settings": {
         "title": "This Weeks Menu",
         "heading_size": "h1",
-        "description": "<p>Delivery Date: Sunday November 19th<\/p><p>Closed the Following Weekend for Thanksgiving<\/p>",
+        "description": "<p><strong>Delivery Date: Sunday November 19th<\/strong><\/p><p><em><strong>**Closed the Following Weekend for Thanksgiving<\/strong><\/em><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "protein-bites",
@@ -93,7 +93,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
@@ -108,7 +108,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p><strong>These Freeze Well - <\/strong><em><strong>Order Extra for the Following Week<\/strong><\/em><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "overnight-oats",
