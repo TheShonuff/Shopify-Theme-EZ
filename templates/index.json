@@ -79,9 +79,9 @@
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "This Weeks Menu",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Delivery Date: Sunday November 19th<\/p><p>Closed the Following Weekend for Thanksgiving<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "protein-bites",
