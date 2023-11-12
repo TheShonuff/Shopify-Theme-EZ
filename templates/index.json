@@ -51,6 +51,7 @@
     },
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
