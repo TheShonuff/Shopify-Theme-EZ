@@ -107,33 +107,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "165742024185217a6d": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Snacks",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "snacks",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -141,7 +114,6 @@
     "product-grid",
     "1657420230ff85498d",
     "1657420235628a25c9",
-    "1657420238e4995bd3",
-    "165742024185217a6d"
+    "1657420238e4995bd3"
   ]
 }
