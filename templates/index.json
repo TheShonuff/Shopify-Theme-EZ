@@ -80,12 +80,12 @@
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
       "settings": {
-        "title": "This Weeks Menu",
+        "title": "No Meal Prep Week of Thanksgiving",
         "heading_size": "h1",
-        "description": "<p><strong>Delivery Date: Sunday November 19th<\/strong><\/p><p><em><strong>**Closed the Following Weekend for Thanksgiving<\/strong><\/em><\/p>",
+        "description": "<p><strong>Purchase Gift Cards for the Holidays<\/strong><\/p><p><em>Different Dinominations Available<\/em><\/p><p><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "protein-bites",
+        "collection": "black-friday",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
