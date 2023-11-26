@@ -79,12 +79,12 @@
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Fresh Made Meals",
+        "title": "Holiday Extras",
         "heading_size": "h1",
-        "description": "<p><strong>Delivery on Sunday December 3, 2023<\/strong><\/p><p><\/p><p><\/p>",
+        "description": "<p><\/p><p><\/p><p><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "december-3-2023",
+        "collection": "black-friday",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
