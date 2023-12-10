@@ -54,10 +54,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h4><strong>Delivery Day: Sunday December 10, 2023<\/strong><\/h4><h4><\/h4>",
+        "description": "<h4><strong>Delivery Day: Sunday December 17, 2023<\/strong><\/h4><h4><em><strong>We will be Closed the next 2 Weeks for Christmas and New Years<\/strong><\/em><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "december-10-2023",
+        "collection": "december-17-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -79,9 +79,9 @@
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Gift Cards",
+        "title": "Holiday Extras",
         "heading_size": "h1",
-        "description": "<p><\/p><p><\/p><p><\/p>",
+        "description": "<p><strong>*Last Week for Cinnamon Sugar Pecans<\/strong><\/p><p><\/p><p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "black-friday",
