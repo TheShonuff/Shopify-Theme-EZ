@@ -54,10 +54,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h4><strong>Delivery Day: Sunday December 17, 2023<\/strong><\/h4><h4><em><strong>We will be Closed the next 2 Weeks for Christmas and New Years<\/strong><\/em><\/h4><h4><\/h4>",
+        "description": "<h4><strong>Delivery Day: Sunday January 7, 2024<\/strong><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "december-17-2023",
+        "collection": "january-7-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
