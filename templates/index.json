@@ -79,9 +79,9 @@
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Holiday Extras",
+        "title": "Gift Cards",
         "heading_size": "h1",
-        "description": "<p><strong>*Last Week for Cinnamon Sugar Pecans<\/strong><\/p><p><\/p><p><\/p>",
+        "description": "<p><\/p><p><\/p><p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "black-friday",
