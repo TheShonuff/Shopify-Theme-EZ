@@ -46,10 +46,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h4><strong>Delivery Day: Sunday March 17th, 2024<\/strong><\/h4><h4><\/h4><h4><\/h4>",
+        "description": "<h3><strong>Delivery Day: Sunday March 24th, 2024<\/strong><\/h3><h4><\/h4><h4><strong>*We will be CLOSED Next week for Easter<\/strong><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "delivery-sunday-march-26-2023",
+        "collection": "march-24-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
