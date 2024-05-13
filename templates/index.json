@@ -46,10 +46,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h3><strong>Delivery Day: SATURDAY   May 11, 2024 (4:00-7:00PM)<\/strong><\/h3><h3><strong>*Change in Delivery Day for Mother's Day on Sunday*<\/strong><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
+        "description": "<h3><strong>Delivery Day: Sunday   May 19, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "may-12-2024",
+        "collection": "may-19-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
