@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -12,13 +11,13 @@
       "type": "apps",
       "blocks": {
         "225dbca2-9ec1-4f49-b048-dbbc25803189": {
-          "type": "shopify:\/\/apps\/import-etsy-facebook-reviews\/blocks\/fullpage_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
+          "type": "shopify:\/\/apps\/kudobuzz-product-reviews-ugc\/blocks\/fullpage_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
           "disabled": true,
           "settings": {
           }
         },
         "f690e4fd-fa43-4045-8d97-947fca30e6f6": {
-          "type": "shopify:\/\/apps\/import-etsy-facebook-reviews\/blocks\/badge_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
+          "type": "shopify:\/\/apps\/kudobuzz-product-reviews-ugc\/blocks\/badge_widget\/f56a1240-13ad-4309-8167-3248665cd1f3",
           "disabled": true,
           "settings": {
           }
@@ -34,17 +33,6 @@
     },
     "1657773617efbb8799": {
       "type": "apps",
-      "blocks": {
-        "0cc396da-758c-42f0-b526-5e1011c899ae": {
-          "type": "shopify:\/\/apps\/testimonials-master\/blocks\/app-block\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
-          "settings": {
-            "embed-code": "<div id=\"c1g_testimonial\"><\/div><script src=\"https:\/\/www.cloudonegalaxy.com\/cloud\/testimonial.js\" data-shop=\"ez-eats-az.myshopify.com\" defer><\/script>"
-          }
-        }
-      },
-      "block_order": [
-        "0cc396da-758c-42f0-b526-5e1011c899ae"
-      ],
       "settings": {
         "include_margins": true
       }
