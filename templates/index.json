@@ -124,14 +124,13 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "",
+        "title": "Ala Cart Items",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "entrees",
+        "collection": "ala-cart",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
