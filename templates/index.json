@@ -79,7 +79,6 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Breakfast",
         "heading_size": "h1",
@@ -107,7 +106,6 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Snacks & Meals",
         "heading_size": "h1",
@@ -135,6 +133,7 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Ala Cart Items",
         "heading_size": "h1",
