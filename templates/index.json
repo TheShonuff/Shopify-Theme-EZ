@@ -108,12 +108,12 @@
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
       "settings": {
-        "title": "Snacks & Meals",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "snacks-meals",
+        "collection": "ala-cart",
         "products_to_show": 11,
         "columns_desktop": 4,
         "full_width": false,
