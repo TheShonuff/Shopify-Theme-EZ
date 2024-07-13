@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#454040",
@@ -188,15 +197,15 @@
           "font": "chivo_n4"
         }
       },
-      "16719881837553823673": {
-        "type": "shopify:\/\/apps\/import-etsy-facebook-reviews\/blocks\/scripts\/f56a1240-13ad-4309-8167-3248665cd1f3",
+      "13641931944027063201": {
+        "type": "shopify:\/\/apps\/testimonials-master\/blocks\/TestimonialMasterScript-js\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
         "disabled": false,
         "settings": {
         }
       },
-      "13641931944027063201": {
-        "type": "shopify:\/\/apps\/testimonials-master\/blocks\/TestimonialMasterScript-js\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
-        "disabled": false,
+      "16719881837553823673": {
+        "type": "shopify:\/\/apps\/kudobuzz-product-reviews-ugc\/blocks\/scripts\/f56a1240-13ad-4309-8167-3248665cd1f3",
+        "disabled": true,
         "settings": {
         }
       }
