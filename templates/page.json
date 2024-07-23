@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -73,7 +82,7 @@
         "49498f4e-22d7-4acc-b80c-eaca7f930806": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-14_at_7.35.17_PM.png",
+            "image": "shopify:\/\/shop_images\/Protein-pancakes-raspberries-almong-butter-1.jpg",
             "image_padding": false
           }
         }
