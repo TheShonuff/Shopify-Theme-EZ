@@ -55,10 +55,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h3><strong>Delivery: Sunday August 4, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
+        "description": "<h3><strong>Delivery: Sunday August 11, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "overnight-oats",
+        "collection": "august-11-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -79,6 +79,7 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -113,7 +114,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ala-cart",
+        "collection": "family-meals",
         "products_to_show": 11,
         "columns_desktop": 4,
         "full_width": false,
