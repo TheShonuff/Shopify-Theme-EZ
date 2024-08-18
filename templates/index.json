@@ -55,10 +55,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h3><strong>Delivery: Sunday August 18, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
+        "description": "<h3><strong>Delivery: Sunday August 25, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "august-18-2024",
+        "collection": "august-25-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
