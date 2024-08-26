@@ -58,7 +58,7 @@
         "description": "<h3><strong>Delivery: Sunday September 1, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "september-1-2024",
+        "collection": "september-1-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -80,12 +80,12 @@
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Cinnamon Rolls from Rolled Out Bakery",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "august-4-2024",
+        "collection": "cinnamon-roll",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
