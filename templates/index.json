@@ -55,10 +55,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h1",
-        "description": "<h3><strong>Delivery: Sunday September 1, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
+        "description": "<h3><strong>Delivery: Sunday September 8, 2024<\/strong><\/h3><h3><\/h3><h3><\/h3><h3><\/h3><h4><\/h4><h4><\/h4><h4><\/h4><h4><\/h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "september-1-2025",
+        "collection": "protein-bites",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -80,12 +80,12 @@
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
       "settings": {
-        "title": "Cinnamon Rolls from Rolled Out Bakery",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cinnamon-roll",
+        "collection": "september-8-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
