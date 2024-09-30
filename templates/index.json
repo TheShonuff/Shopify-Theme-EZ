@@ -55,10 +55,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h2",
-        "description": "<h3><strong>Delivery: Sunday September 29, 2024</strong></h3><h4><strong>Protein Bites are BOGO 1/2 Off</strong></h4><h5><strong>Code: BitesBOGO</strong></h5><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Delivery: Sunday October 6, 2024</strong></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "september-29-2024-logan-homecoming",
+        "collection": "october-8-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
