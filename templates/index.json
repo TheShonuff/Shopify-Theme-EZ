@@ -55,10 +55,10 @@
       "settings": {
         "title": "This Week's Menu",
         "heading_size": "h2",
-        "description": "<h3><strong>Delivery: Sunday October 20, 2024</strong></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Delivery: Sunday October 27, 2024</strong></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "october-20-2024-homecoming-mom-gone",
+        "collection": "october-27-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -133,9 +133,8 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Ala Cart Items",
+        "title": "Cinnamon Sugar Pecans",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
