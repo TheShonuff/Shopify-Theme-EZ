@@ -53,12 +53,12 @@
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c": {
       "type": "featured-collection",
       "settings": {
-        "title": "Delivery: Sunday November 17th",
+        "title": "Our Fresh Menu This Week",
         "heading_size": "h2",
-        "description": "<h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery: Sunday November 24, 2024</h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "november-17-2024",
+        "collection": "november-24-2024-prior-to-tg",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
