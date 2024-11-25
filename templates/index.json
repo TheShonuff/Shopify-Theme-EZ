@@ -55,10 +55,10 @@
       "settings": {
         "title": "Our Fresh Menu This Week",
         "heading_size": "h2",
-        "description": "<h3>Delivery: Sunday November 24, 2024</h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery: Sunday December 1, 2024</h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "november-24-2024-prior-to-tg",
+        "collection": "december-1-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
