@@ -106,7 +106,6 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
@@ -134,7 +133,6 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
         "heading_size": "h1",
@@ -162,7 +160,6 @@
     },
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Gift Cards",
         "heading_size": "h1",
