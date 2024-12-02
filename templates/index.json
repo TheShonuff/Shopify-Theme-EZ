@@ -53,12 +53,12 @@
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c": {
       "type": "featured-collection",
       "settings": {
-        "title": "Give the Gift of Meal Prep",
+        "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h2",
-        "description": "<h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday December 8, 2024</h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "black-friday",
+        "collection": "december-10-2023",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
