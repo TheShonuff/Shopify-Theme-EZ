@@ -55,10 +55,10 @@
       "settings": {
         "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h2",
-        "description": "<h3>Delivery Day: Sunday December 8, 2024</h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday December 15, 2024</h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "december-10-2023",
+        "collection": "december-15-2024",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
