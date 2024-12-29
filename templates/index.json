@@ -77,37 +77,8 @@
         "padding_bottom": 36
       }
     },
-    "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Gift Cards",
-        "heading_size": "h1",
-        "description": "<p></p><p></p><p></p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -135,7 +106,6 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
@@ -163,7 +133,6 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
         "heading_size": "h1",
@@ -180,6 +149,33 @@
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Gift Cards",
+        "heading_size": "h1",
+        "description": "<p></p><p></p><p></p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
@@ -354,10 +350,10 @@
   "order": [
     "image_banner",
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c",
-    "2d649a6d-af4e-44d3-a1e2-367f20dd89a7",
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8",
     "3579aec0-4239-4edf-a882-80d59e20d912",
     "featured_collection_BGfTzE",
+    "2d649a6d-af4e-44d3-a1e2-367f20dd89a7",
     "multicolumn",
     "a847f4d1-3d39-4dd3-b6e0-d294a1e6ec57",
     "1674070370562fb430",
