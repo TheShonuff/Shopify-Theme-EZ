@@ -55,10 +55,10 @@
       "settings": {
         "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3></h3><h2></h2><h3></h3><h3>Next Meal Prep Delivery Day: Sunday January 5, 2025</h3><h3>Menu will Post Soon</h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday January 5, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "black-friday",
+        "collection": "january-5-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
