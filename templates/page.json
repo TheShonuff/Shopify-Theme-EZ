@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -30,7 +30,7 @@
         "template--16172755845348__0fc172df-7e57-4484-b2e2-ede0ecf1adc1-1676420972d1f14a28-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Created by a local Gilbert Mom, EZ Eats AZ was designed to make your life easier. Our goal is to <strong>help people be more present in their active lives <\/strong>by taking away the stress that planning, shopping and cooking can bring. We believe that <strong>everyone deserves wholesome and delicious food<\/strong> without sacrifice.<\/p>",
+            "text": "<p>Created by a local Gilbert Mom, EZ Eats AZ was designed to make your life easier. Our goal is to <strong>help people be more present in their active lives </strong>by taking away the stress that planning, shopping and cooking can bring. We believe that <strong>everyone deserves wholesome and delicious food</strong> without sacrifice.</p>",
             "text_style": "body"
           }
         },
@@ -49,7 +49,7 @@
         "template--16172755845348__0fc172df-7e57-4484-b2e2-ede0ecf1adc1-1676420972d1f14a28-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-02-14_at_7.26.44_PM.png",
+        "image": "shopify://shop_images/IMG_9085.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -68,21 +68,21 @@
         "7947b41e-ebfe-48d3-8a59-ef1a04808c13": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2053FDE8-2D75-46F0-A616-098C7D454DF4.png",
+            "image": "shopify://shop_images/2053FDE8-2D75-46F0-A616-098C7D454DF4.png",
             "image_padding": true
           }
         },
         "3e2a3dbf-b371-4d44-aa04-40ffa29fd392": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-14_at_7.34.24_PM.png",
+            "image": "shopify://shop_images/Screenshot_2023-02-14_at_7.34.24_PM.png",
             "image_padding": true
           }
         },
         "49498f4e-22d7-4acc-b80c-eaca7f930806": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Protein-pancakes-raspberries-almong-butter-1.jpg",
+            "image": "shopify://shop_images/Protein-pancakes-raspberries-almong-butter-1.jpg",
             "image_padding": false
           }
         }
