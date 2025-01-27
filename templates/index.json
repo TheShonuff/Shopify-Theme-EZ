@@ -55,10 +55,10 @@
       "settings": {
         "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Delivery Day: Sunday January 26, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday February 2, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "january-26-2025-pom-comp-at-higley",
+        "collection": "february-2-2025-i-will-be-gone-to-nationals",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -79,6 +79,7 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -106,6 +107,7 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
@@ -133,6 +135,7 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
         "heading_size": "h1",
