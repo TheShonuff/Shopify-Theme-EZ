@@ -55,10 +55,10 @@
       "settings": {
         "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Delivery Day: Sunday February 9, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday February 16, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "february-9-2025-savannah-banana-game-on-saturday",
+        "collection": "sunday-february-16-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -106,7 +106,6 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
