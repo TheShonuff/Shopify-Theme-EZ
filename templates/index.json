@@ -55,10 +55,10 @@
       "settings": {
         "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Delivery Day: Sunday February 16, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday February 23, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "sunday-february-16-2025",
+        "collection": "february-23-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
