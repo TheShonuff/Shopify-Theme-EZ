@@ -55,7 +55,7 @@
       "settings": {
         "title": "Our Weekly Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Delivery Day: Sunday March 16, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday March 23, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
         "collection": "delivery-sunday-march-26-2023",
@@ -135,12 +135,12 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
+        "title": "Protein Cookies from \"Scheming Cookies\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cinnamon-roll",
+        "collection": "scheming-cookies",
         "products_to_show": 11,
         "columns_desktop": 4,
         "full_width": false,
