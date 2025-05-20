@@ -52,10 +52,11 @@
     },
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Our Weekly Freshly Prepped Meals",
+        "title": "",
         "heading_size": "h1",
-        "description": "<h3>Delivery Day: Sunday May 18, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Closed this Week</h3><h3>Next Menu will Post Sunday May 25th</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
         "collection": "may-19-2024",
@@ -79,6 +80,7 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -106,6 +108,7 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Protein Cookies from \"Scheming Cookies\"",
         "heading_size": "h1",
@@ -133,6 +136,7 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
