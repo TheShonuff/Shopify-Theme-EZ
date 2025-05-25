@@ -52,9 +52,9 @@
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Closed this Week</h3><h3>Next Menu will Post Sunday May 25th</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Delivery Day: Sunday June 1, 2025</h3><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
         "collection": "june-1-2025",
