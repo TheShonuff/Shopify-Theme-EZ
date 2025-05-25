@@ -21,7 +21,6 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify://collections/all",
@@ -52,7 +51,6 @@
     },
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
