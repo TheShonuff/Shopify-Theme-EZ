@@ -94,7 +94,6 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Protein Cookies from \"Scheming Cookies\"",
         "heading_size": "h1",
