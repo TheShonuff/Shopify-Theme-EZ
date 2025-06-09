@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Next Delivery Day: Sunday June 8, 2025</h3><h5>Place your Order by Thursday June 5th by 6:00PM</h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Next Delivery Day: Sunday June 15, 2025</h3><h5>Place your Order by Thursday June 12th by 6:00PM</h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "june-8-2025",
+        "collection": "june-15-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -94,6 +94,7 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Protein Cookies from \"Scheming Cookies\"",
         "heading_size": "h1",
@@ -121,7 +122,6 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
