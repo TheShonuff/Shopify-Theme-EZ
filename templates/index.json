@@ -42,7 +42,7 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Next Delivery Day: Sunday June 15, 2025</h3><h5>Place your Order by Thursday June 12th by 6:00PM</h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3>Next Delivery Day: Sunday June 22, 2025</h3><h5>Place your Order by Thursday June 19th by 6:00PM</h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
         "collection": "june-15-2025",
@@ -66,14 +66,13 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ala-cart",
+        "collection": "bad-dog-salsa",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -94,7 +93,6 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Protein Cookies from \"Scheming Cookies\"",
         "heading_size": "h1",
