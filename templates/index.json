@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3>Next Delivery Day: Sunday June 29, 2025</h3><h5><em>(Place your Order by Thursday June 26th by 6:00PM)</em></h5><h3>**We Will be Closed the Following Week for the 4th of July**</h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday July 13, 2025</strong></h3><h5><em>(Place your Order by Thursday July 10th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "june-29-2025",
+        "collection": "july-13-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
