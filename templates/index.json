@@ -42,7 +42,7 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday July 27, 2025</strong></h3><h5><em>(Place your Order by Thursday July 24th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday August 3rd, 2025</strong></h3><h5><em>(Place your Order by Thursday July 31st by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
         "collection": "protein-bites",
@@ -73,7 +73,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "july-27-2025",
+        "collection": "august-3-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
