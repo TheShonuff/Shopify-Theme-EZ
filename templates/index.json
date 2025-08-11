@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday August 10th, 2025</strong></h3><h5><em>(Place your Order by Thursday August 7th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday August 17th, 2025</strong></h3><h5><em>(Place your Order by Thursday August 14th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "august-10-2025",
+        "collection": "august-17-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -92,21 +92,19 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_4ABQXk": {
+    "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
-      "disabled": true,
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Ala Cart",
+        "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ala-cart",
-        "products_to_show": 4,
+        "collection": "juice-from-my-moms-juice",
+        "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -148,17 +146,18 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_BGfTzE": {
+    "featured_collection_4ABQXk": {
       "type": "featured-collection",
       "disabled": true,
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Protein Cookies from \"Scheming Cookies\"",
+        "title": "Ala Cart",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "scheming-cookies",
-        "products_to_show": 11,
+        "collection": "ala-cart",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -176,19 +175,20 @@
         "padding_bottom": 36
       }
     },
-    "3579aec0-4239-4edf-a882-80d59e20d912": {
+    "featured_collection_BGfTzE": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Fresh Juice from \"My Mom's Juice\"",
+        "title": "Protein Cookies from \"Scheming Cookies\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "juice-from-my-moms-juice",
-        "products_to_show": 12,
+        "collection": "scheming-cookies",
+        "products_to_show": 11,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
