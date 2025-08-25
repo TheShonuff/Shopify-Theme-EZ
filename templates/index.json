@@ -66,9 +66,8 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Ala Cart",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
