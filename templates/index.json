@@ -94,6 +94,7 @@
     },
     "featured_collection_tfKzjJ": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
@@ -122,6 +123,7 @@
     },
     "3579aec0-4239-4edf-a882-80d59e20d912": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Fresh Juice from \"My Mom's Juice\"",
         "heading_size": "h1",
@@ -149,6 +151,7 @@
     },
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Salsa from \"Bad Dog Salsa\"",
         "heading_size": "h1",
