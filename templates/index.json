@@ -47,7 +47,7 @@
         "description_style": "body",
         "collection": "september-7-2025-no-mom-prep-or-deliveries-no-b-no-denise",
         "products_to_show": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "outline",
@@ -66,6 +66,7 @@
     },
     "featured_collection_BGfTzE": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
