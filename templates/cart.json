@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -12,21 +21,13 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
-        "subtotal",
-        "buttons"
+        "subtotal"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "bdb7c7af-a4a6-4d10-88ca-0be5a5a0303b": {
       "type": "rich-text",
@@ -41,7 +42,7 @@
         "template--16172755452132__bdb7c7af-a4a6-4d10-88ca-0be5a5a0303b-1679460333c860b076-1": {
           "type": "text",
           "settings": {
-            "text": "<p>*Shipping = Delivery<\/p>"
+            "text": "<p>*Shipping = Delivery</p>"
           }
         }
       },
