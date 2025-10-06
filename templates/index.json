@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday October 5th, 2025</strong></h3><h5><em>(Place your Order by Thursday October 2nd by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday October 12th, 2025</strong></h3><h5><em>(Place your Order by Thursday October 9th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "october-5-2025",
+        "collection": "october-12-2025-no-denise",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
