@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#454040",
@@ -93,9 +93,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61555915725614&mibextid=eQY6cl",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=61555915725614&mibextid=eQY6cl",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/ez_eats_az",
+    "social_instagram_link": "https://www.instagram.com/ez_eats_az",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -104,25 +104,26 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
+    "favicon": "shopify://shop_images/favicon-32x32.png",
     "currency_code_enabled": true,
+    "cart_type": "page",
     "show_vendor": false,
+    "show_cart_note": true,
     "cart_drawer_collection": "delivery-sunday-march-26-2023",
-    "checkout_header_image": "shopify:\/\/shop_images\/background-img.jpg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/EZ_Eats_Black.png",
+    "checkout_header_image": "shopify://shop_images/background-img.jpg",
+    "checkout_logo_image": "shopify://shop_images/EZ_Eats_Black.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "accent-2",
-          "logo": "shopify:\/\/shop_images\/EZ_Eats_Black.png",
+          "logo": "shopify://shop_images/EZ_Eats_Black.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -174,7 +175,7 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify://shop_images/logo.png",
           "logo_max_width": 100,
           "color_scheme": "background-1"
         }
@@ -186,28 +187,24 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "7457738957953183798": {
-        "type": "shopify:\/\/apps\/magical-vacation-mode\/blocks\/magical-vacation-mode\/0e1e5a21-6730-48a6-a159-50aec253b0fd",
+        "type": "shopify://apps/magical-vacation-mode/blocks/magical-vacation-mode/0e1e5a21-6730-48a6-a159-50aec253b0fd",
         "disabled": false,
         "settings": {
           "font": "chivo_n4"
         }
       },
       "13641931944027063201": {
-        "type": "shopify:\/\/apps\/testimonials-master\/blocks\/TestimonialMasterScript-js\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
+        "type": "shopify://apps/testimonials-master/blocks/TestimonialMasterScript-js/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16719881837553823673": {
-        "type": "shopify:\/\/apps\/kudobuzz-product-reviews-ugc\/blocks\/scripts\/f56a1240-13ad-4309-8167-3248665cd1f3",
+        "type": "shopify://apps/kudobuzz-product-reviews-ugc/blocks/scripts/f56a1240-13ad-4309-8167-3248665cd1f3",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -325,8 +322,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -361,7 +357,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
