@@ -137,10 +137,10 @@
   {% if cart.item_count > 0 %}
     <button
       type="submit"
-      name="add"
+      
       class="ai-checkout-button-{{ ai_gen_id }}"
       form="cart"
-      action="/checkout"
+      formaction="/checkout"
       {% if cart.item_count == 0 %}disabled{% endif %}
     >
       {{ block.settings.button_text }}
