@@ -58,11 +58,39 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "175980888857b26f79": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_ea7076f_4bQqpa": {
+          "type": "ai_gen_block_ea7076f",
+          "settings": {
+            "button_text": "Proceed to checkout",
+            "empty_cart_text": "Your cart is empty",
+            "show_icon": true,
+            "show_security_badges": true,
+            "button_color": "#121212",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "button_font_size": 16,
+            "button_padding": 18,
+            "margin_top": 24,
+            "margin_bottom": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_ea7076f_4bQqpa"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "bdb7c7af-a4a6-4d10-88ca-0be5a5a0303b"
+    "bdb7c7af-a4a6-4d10-88ca-0be5a5a0303b",
+    "175980888857b26f79"
   ]
 }
