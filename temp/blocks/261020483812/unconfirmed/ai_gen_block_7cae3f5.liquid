@@ -1,6 +1,598 @@
+{% doc %}
+  @prompt
+    Create an add to cart button that can be customized with different styles, colors, and text. The button should be responsive and include hover effects.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-add-to-cart-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: {{ block.settings.alignment }};
+    width: 100%;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }} {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.text_color }};
+    border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    font-family: {{ block.settings.font_family.family }}, {{ block.settings.font_family.fallback_families }};
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: {{ block.settings.font_weight }};
+    text-decoration: none;
+    text-transform: {{ block.settings.text_transform }};
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: {{ block.settings.min_width }}px;
+    width: {% if block.settings.full_width %}100%{% else %}auto{% endif %};
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: {% if block.settings.shadow_opacity > 0 %}{{ block.settings.shadow_horizontal }}px {{ block.settings.shadow_vertical }}px {{ block.settings.shadow_blur }}px rgba(0, 0, 0, {{ block.settings.shadow_opacity | divided_by: 100.0 }}){% else %}none{% endif %};
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.hover_color }};
+    color: {{ block.settings.hover_text_color }};
+    border-color: {{ block.settings.hover_border_color }};
+    transform: {% if block.settings.hover_scale %}scale(1.05){% endif %} {% if block.settings.hover_lift %}translateY(-2px){% endif %};
+    box-shadow: {% if block.settings.shadow_opacity > 0 %}{{ block.settings.shadow_horizontal }}px {{ block.settings.shadow_vertical | plus: 2 }}px {{ block.settings.shadow_blur | plus: 5 }}px rgba(0, 0, 0, {{ block.settings.shadow_opacity | divided_by: 100.0 | times: 1.2 }}){% else %}none{% endif %};
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }}:focus {
+    outline: 2px solid {{ block.settings.button_color }};
+    outline-offset: 2px;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }}:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }}:disabled:hover {
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.text_color }};
+    border-color: {{ block.settings.border_color }};
+    transform: none;
+  }
+
+  .ai-add-to-cart-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    flex-shrink: 0;
+  }
+
+  .ai-add-to-cart-text-{{ ai_gen_id }} {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ai-add-to-cart-loading-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: ai-add-to-cart-spin-{{ ai_gen_id }} 1s linear infinite;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }}.loading .ai-add-to-cart-loading-{{ ai_gen_id }} {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .ai-add-to-cart-button-{{ ai_gen_id }}.loading .ai-add-to-cart-content-{{ ai_gen_id }} {
+    opacity: 0;
+  }
+
+  @keyframes ai-add-to-cart-spin-{{ ai_gen_id }} {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-add-to-cart-button-{{ ai_gen_id }} {
+      padding: {{ block.settings.padding_vertical | times: 0.8 }}px {{ block.settings.padding_horizontal | times: 0.8 }}px;
+      font-size: {{ block.settings.font_size | times: 0.9 }}px;
+      min-width: {{ block.settings.min_width | times: 0.8 }}px;
+    }
+
+    .ai-add-to-cart-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.9 }}px;
+      height: {{ block.settings.icon_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<add-to-cart-button-{{ ai_gen_id }}
+  class="ai-add-to-cart-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <button
+    type="submit"
+    name="add"
+    class="ai-add-to-cart-button-{{ ai_gen_id }}"
+    {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+    data-product-id="{{ product.id }}"
+    data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+    aria-label="Add {{ product.title }} to cart"
+  >
+    <div class="ai-add-to-cart-content-{{ ai_gen_id }}">
+      {% if block.settings.show_icon %}
+        <svg class="ai-add-to-cart-icon-{{ ai_gen_id }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          {% case block.settings.icon_style %}
+            {% when 'cart' %}
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="m1 1 4 4 2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            {% when 'bag' %}
+              <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="m16 10a4 4 0 0 1-8 0"></path>
+            {% when 'plus' %}
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            {% when 'heart' %}
+              <path d="m19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7z"></path>
+          {% endcase %}
+        </svg>
+      {% endif %}
+      
+      <span class="ai-add-to-cart-text-{{ ai_gen_id }}">
+        {% if product.selected_or_first_available_variant.available %}
+          {{ block.settings.button_text }}
+        {% else %}
+          {{ block.settings.sold_out_text }}
+        {% endif %}
+      </span>
+    </div>
+    
+    <div class="ai-add-to-cart-loading-{{ ai_gen_id }}"></div>
+  </button>
+</add-to-cart-button-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AddToCartButton{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.button = this.querySelector('.ai-add-to-cart-button-{{ ai_gen_id }}');
+        this.form = this.closest('form[action*="/cart/add"]') || this.createForm();
+      }
+
+      connectedCallback() {
+        this.button.addEventListener('click', this.handleClick.bind(this));
+      }
+
+      createForm() {
+        const form = document.createElement('form');
+        form.action = '/cart/add';
+        form.method = 'post';
+        form.enctype = 'multipart/form-data';
+        
+        const variantInput = document.createElement('input');
+        variantInput.type = 'hidden';
+        variantInput.name = 'id';
+        variantInput.value = this.button.dataset.variantId;
+        
+        form.appendChild(variantInput);
+        this.appendChild(form);
+        
+        return form;
+      }
+
+      async handleClick(event) {
+        event.preventDefault();
+        
+        if (this.button.disabled || this.button.classList.contains('loading')) {
+          return;
+        }
+
+        this.setLoading(true);
+
+        try {
+          const formData = new FormData();
+          formData.append('id', this.button.dataset.variantId);
+          formData.append('quantity', 1);
+
+          const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            body: formData
+          });
+
+          if (response.ok) {
+            const result = await response.json();
+            this.handleSuccess(result);
+          } else {
+            throw new Error('Failed to add to cart');
+          }
+        } catch (error) {
+          this.handleError(error);
+        } finally {
+          this.setLoading(false);
+        }
+      }
+
+      setLoading(loading) {
+        if (loading) {
+          this.button.classList.add('loading');
+          this.button.disabled = true;
+        } else {
+          this.button.classList.remove('loading');
+          this.button.disabled = false;
+        }
+      }
+
+      handleSuccess(result) {
+        document.dispatchEvent(new CustomEvent('cart:item-added', {
+          detail: { variant: result }
+        }));
+
+        if (window.theme && window.theme.cart) {
+          window.theme.cart.refresh();
+        }
+
+        const cartDrawer = document.querySelector('cart-drawer');
+        if (cartDrawer) {
+          cartDrawer.open();
+        }
+
+        const cartNotification = document.querySelector('cart-notification');
+        if (cartNotification) {
+          cartNotification.renderContents(result);
+        }
+      }
+
+      handleError(error) {
+        console.error('Add to cart error:', error);
+        
+        const errorEvent = new CustomEvent('cart:error', {
+          detail: { error: error.message }
+        });
+        document.dispatchEvent(errorEvent);
+      }
+    }
+
+    customElements.define('add-to-cart-button-{{ ai_gen_id }}', AddToCartButton{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Add to cart button",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Button text"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Add to cart"
+    },
+    {
+      "type": "text",
+      "id": "sold_out_text",
+      "label": "Sold out text",
+      "default": "Sold out"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Text transform",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width button",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "min_width",
+      "min": 100,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Minimum width",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "min": 10,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Horizontal padding",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "min": 8,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Border width",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#454040"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "hover_color",
+      "label": "Hover background color",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "hover_text_color",
+      "label": "Hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "hover_border_color",
+      "label": "Hover border color",
+      "default": "#121212"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "font_family",
+      "label": "Font family",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "300",
+          "label": "Light"
+        },
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "500"
+    },
+    {
+      "type": "header",
+      "content": "Icon"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show icon",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "icon_style",
+      "label": "Icon style",
+      "options": [
+        {
+          "value": "cart",
+          "label": "Shopping cart"
+        },
+        {
+          "value": "bag",
+          "label": "Shopping bag"
+        },
+        {
+          "value": "plus",
+          "label": "Plus"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        }
+      ],
+      "default": "cart"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 12,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Icon size",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Hover effects"
+    },
+    {
+      "type": "checkbox",
+      "id": "hover_scale",
+      "label": "Scale on hover",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hover_lift",
+      "label": "Lift on hover",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Shadow"
+    },
+    {
+      "type": "range",
+      "id": "shadow_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Shadow opacity",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "shadow_horizontal",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "label": "Horizontal offset",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "shadow_vertical",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "label": "Vertical offset",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "shadow_blur",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Shadow blur",
+      "default": 4
+    }
+  ],
+  "presets": [
+    {
+      "name": "Add to cart button"
+    }
+  ]
+}
 {% endschema %}
