@@ -180,12 +180,56 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1759806281ac0371b6": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7cae3f5_jYqAQ4": {
+          "type": "ai_gen_block_7cae3f5",
+          "settings": {
+            "button_text": "Add to cart",
+            "sold_out_text": "Sold out",
+            "text_transform": "none",
+            "alignment": "center",
+            "full_width": false,
+            "min_width": 200,
+            "padding_horizontal": 24,
+            "padding_vertical": 16,
+            "border_radius": 0,
+            "border_width": 1,
+            "button_color": "#ffffff",
+            "text_color": "#454040",
+            "border_color": "#121212",
+            "hover_color": "#121212",
+            "hover_text_color": "#ffffff",
+            "hover_border_color": "#121212",
+            "font_family": "assistant_n4",
+            "font_size": 16,
+            "font_weight": "500",
+            "show_icon": true,
+            "icon_style": "cart",
+            "icon_size": 20,
+            "hover_scale": false,
+            "hover_lift": true,
+            "shadow_opacity": 0,
+            "shadow_horizontal": 0,
+            "shadow_vertical": 4,
+            "shadow_blur": 4
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7cae3f5_jYqAQ4"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "1657424977d941d52b",
     "image-with-text",
-    "product-recommendations"
+    "product-recommendations",
+    "1759806281ac0371b6"
   ]
 }
