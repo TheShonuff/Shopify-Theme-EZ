@@ -85,12 +85,54 @@
         "ai_gen_block_ea7076f_4bQqpa"
       ],
       "settings": {}
+    },
+    "175981091215d4d7d4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_875cc78_ETzCnq": {
+          "type": "ai_gen_block_875cc78",
+          "settings": {
+            "button_text": "Checkout",
+            "empty_cart_message": "Your cart is empty",
+            "show_icon": true,
+            "show_cart_count": true,
+            "show_cart_total": false,
+            "button_alignment": "center",
+            "min_width": 200,
+            "button_padding_vertical": 16,
+            "button_padding_horizontal": 32,
+            "container_padding": 16,
+            "button_color": "#121212",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "disabled_color": "#cccccc",
+            "disabled_text_color": "#666666",
+            "empty_cart_text_color": "#666666",
+            "font_size": 16,
+            "font_weight": "600",
+            "icon_size": 20,
+            "border_radius": 8,
+            "border_thickness": 0,
+            "border_color": "#121212",
+            "shadow_vertical": 2,
+            "shadow_blur": 4,
+            "shadow_opacity": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_875cc78_ETzCnq"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
     "bdb7c7af-a4a6-4d10-88ca-0be5a5a0303b",
-    "175980888857b26f79"
+    "175980888857b26f79",
+    "175981091215d4d7d4"
   ]
 }
