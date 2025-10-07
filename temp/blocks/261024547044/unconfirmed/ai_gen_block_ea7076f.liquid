@@ -1,6 +1,414 @@
+{% doc %}
+  @prompt
+    Create a checkout button for the cart page that allows customers to proceed to checkout. The button should be prominently displayed and styled to match the theme, positioned near the cart subtotal area.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-checkout-button-container-{{ ai_gen_id }} {
+    width: 100%;
+    margin: {{ block.settings.margin_top }}px 0 {{ block.settings.margin_bottom }}px;
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: {{ block.settings.button_padding }}px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    border: {{ settings.buttons_border_thickness }}px solid;
+    border-color: rgba({{ block.settings.button_color | color_extract: 'red' }}, {{ block.settings.button_color | color_extract: 'green' }}, {{ block.settings.button_color | color_extract: 'blue' }}, {{ settings.buttons_border_opacity | divided_by: 100.0 }});
+    border-radius: {{ settings.buttons_radius }}px;
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+      {% if settings.buttons_shadow_opacity > 0 %}
+        {{ settings.buttons_shadow_horizontal_offset }}px 
+        {{ settings.buttons_shadow_vertical_offset }}px 
+        {{ settings.buttons_shadow_blur }}px 
+        rgba(0, 0, 0, {{ settings.buttons_shadow_opacity | divided_by: 100.0 }})
+      {% else %}
+        none
+      {% endif %};
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+    color: {{ block.settings.button_hover_text_color }};
+    border-color: rgba({{ block.settings.button_hover_color | color_extract: 'red' }}, {{ block.settings.button_hover_color | color_extract: 'green' }}, {{ block.settings.button_hover_color | color_extract: 'blue' }}, {{ settings.buttons_border_opacity | divided_by: 100.0 }});
+    transform: translateY(-1px);
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}:focus {
+    outline: 2px solid {{ block.settings.button_color }};
+    outline-offset: 2px;
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    border-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .ai-checkout-button-icon-{{ ai_gen_id }} {
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}:hover .ai-checkout-button-icon-{{ ai_gen_id }} {
+    transform: translateX(2px);
+  }
+
+  .ai-checkout-button-loading-{{ ai_gen_id }} {
+    display: none;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: ai-checkout-button-spin-{{ ai_gen_id }} 1s linear infinite;
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}.loading .ai-checkout-button-icon-{{ ai_gen_id }} {
+    display: none;
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}.loading .ai-checkout-button-loading-{{ ai_gen_id }} {
+    display: block;
+  }
+
+  @keyframes ai-checkout-button-spin-{{ ai_gen_id }} {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .ai-checkout-security-badges-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+    font-size: 12px;
+    color: {{ settings.colors_text }};
+    opacity: 0.7;
+  }
+
+  .ai-checkout-security-badge-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .ai-checkout-security-icon-{{ ai_gen_id }} {
+    width: 16px;
+    height: 16px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-checkout-button-{{ ai_gen_id }} {
+      font-size: {{ block.settings.button_font_size | times: 0.9 }}px;
+      padding: {{ block.settings.button_padding | times: 0.8 }}px;
+    }
+
+    .ai-checkout-security-badges-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+{% endstyle %}
+
+<cart-checkout-button-{{ ai_gen_id }}
+  class="ai-checkout-button-container-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if cart.item_count > 0 %}
+    <button
+      type="submit"
+      name="add"
+      class="ai-checkout-button-{{ ai_gen_id }}"
+      form="cart"
+      formaction="/checkout"
+      {% if cart.item_count == 0 %}disabled{% endif %}
+    >
+      {{ block.settings.button_text }}
+      
+      {% if block.settings.show_icon %}
+        <svg
+          class="ai-checkout-button-icon-{{ ai_gen_id }}"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      {% endif %}
+
+      <div class="ai-checkout-button-loading-{{ ai_gen_id }}"></div>
+    </button>
+
+    {% if block.settings.show_security_badges %}
+      <div class="ai-checkout-security-badges-{{ ai_gen_id }}">
+        <div class="ai-checkout-security-badge-{{ ai_gen_id }}">
+          <svg
+            class="ai-checkout-security-icon-{{ ai_gen_id }}"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="M9 12l2 2 4-4"/>
+          </svg>
+          Secure checkout
+        </div>
+        <div class="ai-checkout-security-badge-{{ ai_gen_id }}">
+          <svg
+            class="ai-checkout-security-icon-{{ ai_gen_id }}"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <circle cx="12" cy="16" r="1"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          SSL encrypted
+        </div>
+      </div>
+    {% endif %}
+  {% else %}
+    <button
+      type="button"
+      class="ai-checkout-button-{{ ai_gen_id }}"
+      disabled
+    >
+      {{ block.settings.empty_cart_text }}
+    </button>
+  {% endif %}
+</cart-checkout-button-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CartCheckoutButton{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.button = this.querySelector('.ai-checkout-button-{{ ai_gen_id }}');
+      }
+
+      connectedCallback() {
+        if (this.button) {
+          this.setupEventListeners();
+        }
+      }
+
+      setupEventListeners() {
+        this.button.addEventListener('click', this.handleCheckout.bind(this));
+        
+        document.addEventListener('cart:updated', this.updateButtonState.bind(this));
+      }
+
+      handleCheckout(event) {
+        if (this.button.disabled) {
+          event.preventDefault();
+          return;
+        }
+
+        this.button.classList.add('loading');
+        this.button.disabled = true;
+
+        setTimeout(() => {
+          if (this.button.classList.contains('loading')) {
+            this.button.classList.remove('loading');
+            this.button.disabled = false;
+          }
+        }, 5000);
+      }
+
+      updateButtonState() {
+        fetch('/cart.js')
+          .then(response => response.json())
+          .then(cart => {
+            const isEmpty = cart.item_count === 0;
+            this.button.disabled = isEmpty;
+            
+            if (isEmpty) {
+              this.button.textContent = this.button.dataset.emptyText || 'Your cart is empty';
+            } else {
+              this.button.innerHTML = this.getButtonContent();
+            }
+          })
+          .catch(error => {
+            console.error('Error updating checkout button:', error);
+          });
+      }
+
+      getButtonContent() {
+        const buttonText = '{{ block.settings.button_text | escape }}';
+        const showIcon = {{ block.settings.show_icon }};
+        
+        let content = buttonText;
+        
+        if (showIcon) {
+          content += `
+            <svg
+              class="ai-checkout-button-icon-{{ ai_gen_id }}"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          `;
+        }
+        
+        content += '<div class="ai-checkout-button-loading-{{ ai_gen_id }}"></div>';
+        
+        return content;
+      }
+    }
+
+    customElements.define('cart-checkout-button-{{ ai_gen_id }}', CartCheckoutButton{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Checkout button",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Button content"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Proceed to checkout"
+    },
+    {
+      "type": "text",
+      "id": "empty_cart_text",
+      "label": "Empty cart text",
+      "default": "Your cart is empty"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show arrow icon",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_security_badges",
+      "label": "Show security badges",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 8,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Button padding",
+      "default": 18
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Top margin",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom margin",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Checkout button"
+    }
+  ]
+}
 {% endschema %}
