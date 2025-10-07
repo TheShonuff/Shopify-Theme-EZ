@@ -1,6 +1,409 @@
+{% doc %}
+  @prompt
+    Create a simple, functional checkout button that uses a direct link to /checkout instead of form submission. The button should be styled as a prominent checkout button and should only be enabled when there are items in the cart. Use window.location.href for navigation to avoid form submission issues.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-checkout-button-container-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: {{ block.settings.button_alignment }};
+    width: 100%;
+    padding: {{ block.settings.container_padding }}px;
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    border: {{ block.settings.border_thickness }}px solid {{ block.settings.border_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: {{ block.settings.font_weight }};
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: {{ block.settings.min_width }}px;
+    text-align: center;
+    box-shadow: 0 {{ block.settings.shadow_vertical }}px {{ block.settings.shadow_blur }}px rgba(0, 0, 0, {{ block.settings.shadow_opacity | divided_by: 100.0 }});
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}:hover:not(:disabled) {
+    background-color: {{ block.settings.button_hover_color }};
+    color: {{ block.settings.button_hover_text_color }};
+    transform: translateY(-2px);
+    box-shadow: 0 {{ block.settings.shadow_vertical | plus: 2 }}px {{ block.settings.shadow_blur | plus: 2 }}px rgba(0, 0, 0, {{ block.settings.shadow_opacity | divided_by: 100.0 | plus: 0.1 }});
+  }
+
+  .ai-checkout-button-{{ ai_gen_id }}:disabled {
+    background-color: {{ block.settings.disabled_color }};
+    color: {{ block.settings.disabled_text_color }};
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  .ai-checkout-button-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    flex-shrink: 0;
+  }
+
+  .ai-checkout-button-text-{{ ai_gen_id }} {
+    white-space: nowrap;
+  }
+
+  .ai-checkout-empty-cart-{{ ai_gen_id }} {
+    color: {{ block.settings.empty_cart_text_color }};
+    font-size: {{ block.settings.font_size | minus: 2 }}px;
+    text-align: center;
+    font-style: italic;
+    padding: {{ block.settings.button_padding_vertical }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-checkout-button-{{ ai_gen_id }} {
+      width: 100%;
+      min-width: auto;
+    }
+    
+    .ai-checkout-button-container-{{ ai_gen_id }} {
+      justify-content: stretch;
+    }
+  }
+{% endstyle %}
+
+<checkout-button-{{ ai_gen_id }}
+  class="ai-checkout-button-container-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if cart.item_count > 0 %}
+    <button
+      class="ai-checkout-button-{{ ai_gen_id }}"
+      type="button"
+      aria-label="Proceed to checkout with {{ cart.item_count }} item{{ cart.item_count | pluralize }}"
+    >
+      {% if block.settings.show_icon %}
+        <svg class="ai-checkout-button-icon-{{ ai_gen_id }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 12l2 2 4-4"></path>
+          <path d="M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.746 3.746 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path>
+        </svg>
+      {% endif %}
+      <span class="ai-checkout-button-text-{{ ai_gen_id }}">
+        {{ block.settings.button_text }}
+        {% if block.settings.show_cart_count %}
+          ({{ cart.item_count }})
+        {% endif %}
+        {% if block.settings.show_cart_total %}
+          - {{ cart.total_price | money }}
+        {% endif %}
+      </span>
+    </button>
+  {% else %}
+    <div class="ai-checkout-empty-cart-{{ ai_gen_id }}">
+      {{ block.settings.empty_cart_message }}
+    </div>
+  {% endif %}
+</checkout-button-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CheckoutButton{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.button = this.querySelector('.ai-checkout-button-{{ ai_gen_id }}');
+        if (this.button) {
+          this.setupEventListeners();
+        }
+      }
+
+      setupEventListeners() {
+        this.button.addEventListener('click', this.handleCheckout.bind(this));
+      }
+
+      handleCheckout(event) {
+        event.preventDefault();
+        
+        if (this.button.disabled) {
+          return;
+        }
+
+        window.location.href = '/checkout';
+      }
+    }
+
+    customElements.define('checkout-button-{{ ai_gen_id }}', CheckoutButton{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Checkout button",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Button content"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Checkout"
+    },
+    {
+      "type": "text",
+      "id": "empty_cart_message",
+      "label": "Empty cart message",
+      "default": "Your cart is empty"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show checkout icon",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_count",
+      "label": "Show cart item count",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_total",
+      "label": "Show cart total",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "select",
+      "id": "button_alignment",
+      "label": "Button alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "min_width",
+      "min": 100,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Minimum width",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "min": 8,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "min": 16,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "label": "Horizontal padding",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "container_padding",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Container padding",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "disabled_color",
+      "label": "Disabled button color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "disabled_text_color",
+      "label": "Disabled text color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "empty_cart_text_color",
+      "label": "Empty cart text color",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "600"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 12,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Icon size",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Border and shadow"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "border_thickness",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Border thickness",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#121212"
+    },
+    {
+      "type": "range",
+      "id": "shadow_vertical",
+      "min": 0,
+      "max": 12,
+      "step": 1,
+      "unit": "px",
+      "label": "Shadow vertical offset",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "shadow_blur",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Shadow blur",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "shadow_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Shadow opacity",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Checkout button"
+    }
+  ]
+}
 {% endschema %}
