@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday October 12th, 2025</strong></h3><h5><em>(Place your Order by Thursday October 9th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday October 19th, 2025</strong></h3><h5><em>(Place your Order by Thursday October 16th by 6:00PM)</em></h5><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "protein-bites",
+        "collection": "october-19-2025",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
@@ -72,7 +72,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "october-12-2025-no-denise",
+        "collection": "juice-from-my-moms-juice",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -93,6 +93,7 @@
     },
     "featured_collection_tfKzjJ": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
