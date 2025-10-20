@@ -93,7 +93,6 @@
     },
     "featured_collection_tfKzjJ": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
@@ -368,8 +367,8 @@
   "order": [
     "image_banner",
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c",
-    "3579aec0-4239-4edf-a882-80d59e20d912",
     "featured_collection_tfKzjJ",
+    "3579aec0-4239-4edf-a882-80d59e20d912",
     "5bb26104-4a6c-4d3a-bc9b-cd818a4f9ad8",
     "featured_collection_YpAhLW",
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7",
