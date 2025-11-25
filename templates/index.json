@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday November 23rd, 2025</strong></h3><h5><em>(Place your Order by Thursday November 20th by 6:00PM)</em></h5><h5></h5><h4><strong>**We will be Closed the Week After Thanksgiving**</strong></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: December 7th</strong></h3><h5><em>(Place your Order by Thursday December 4th by 6:00PM)</em></h5><h5></h5><h4><strong>**We will be Closed the Week After Thanksgiving**</strong></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "november-24-2024-prior-to-tg",
+        "collection": "black-friday",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
@@ -181,6 +181,7 @@
     },
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Gift Cards",
         "heading_size": "h1",
