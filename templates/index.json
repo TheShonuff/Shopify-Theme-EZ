@@ -73,7 +73,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "overnight-oats",
+        "collection": "ala-cart",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
