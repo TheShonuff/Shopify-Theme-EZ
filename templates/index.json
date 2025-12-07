@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: December 14th</strong></h3><h5><em>(Place your Order by Thursday December 11th by 6:00PM)</em></h5><h5><strong>Last Orders for the Year!  Order Extra and Freeze</strong></h5><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: December 14th</strong></h3><h5><em>(Place your Order by Thursday December 11th by 6:00PM)</em></h5><h5><strong>Last Menu for the Year!  Order Extra and Freeze</strong></h5><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "december-7-2025",
+        "collection": "december-15-2024",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
