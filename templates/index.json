@@ -94,6 +94,7 @@
     },
     "featured_collection_8mkm9b": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Protein Cookies from \"The Scheming Cookie\"",
@@ -122,6 +123,7 @@
     },
     "featured_collection_crpLVm": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
