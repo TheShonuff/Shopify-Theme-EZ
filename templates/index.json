@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: January 4, 2026</strong></h3><h5><em>(Place your Order by Thursday January 1st by 6:00PM)</em></h5><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: January 11, 2026</strong></h3><h5><em>(Place your Order by Thursday January 8th by 6:00PM)</em></h5><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "january-4-2026",
+        "collection": "january-11-2026",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
