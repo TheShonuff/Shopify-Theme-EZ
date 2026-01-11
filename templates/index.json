@@ -66,14 +66,15 @@
     },
     "featured_collection_tfKzjJ": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "",
+        "title": "Cinnamon Rolls from \"Rolled Out Bakery\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ala-cart",
+        "collection": "cinnamon-roll",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
