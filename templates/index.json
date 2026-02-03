@@ -147,16 +147,16 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_YpAhLW": {
+    "featured_collection_rGCDA3": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Salsa from \"Bad Dog Salsa\"",
+        "title": "Protein Cookies by \"The Scheming Cookies\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "bad-dog-salsa",
+        "collection": "scheming-cookies",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -175,16 +175,16 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_rGCDA3": {
+    "featured_collection_YpAhLW": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Protein Cookies by \"The Scheming Cookies\"",
+        "title": "Salsa from \"Bad Dog Salsa\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "scheming-cookies",
+        "collection": "bad-dog-salsa",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -396,10 +396,10 @@
     "image_banner",
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c",
     "featured_collection_NxFqqg",
-    "3579aec0-4239-4edf-a882-80d59e20d912",
     "featured_collection_W4yHD9",
-    "featured_collection_YpAhLW",
     "featured_collection_rGCDA3",
+    "3579aec0-4239-4edf-a882-80d59e20d912",
+    "featured_collection_YpAhLW",
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7",
     "multicolumn",
     "a847f4d1-3d39-4dd3-b6e0-d294a1e6ec57",
