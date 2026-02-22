@@ -94,6 +94,7 @@
     },
     "featured_collection_W4yHD9": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Cinnamon Rolls by \"Rolled Out Bakery\"",
