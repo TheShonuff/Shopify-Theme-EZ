@@ -178,6 +178,7 @@
     },
     "featured_collection_YpAhLW": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Salsa from \"Bad Dog Salsa\"",
