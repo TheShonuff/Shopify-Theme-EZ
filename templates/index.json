@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday May 24th, 2026</strong></h3><h5><em>(Place your Order by Thursday May 21st by 6:00PM)</em></h5><h5></h5><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday May 31st, 2026</strong></h3><h5><em>(Place your Order by Thursday May 28th by 6:00PM)</em></h5><h5></h5><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "september-28-2025-leave-for-ca-mini-knights-busy-weekend",
+        "collection": "may-31-2026",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
@@ -66,6 +66,7 @@
     },
     "featured_collection_NxFqqg": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
@@ -152,7 +153,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Protein Cookies by \"The Scheming Cookie”",
+        "title": "Sweet Treats from Amber Marie's Cookies",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -399,8 +400,8 @@
     "34650c8d-5b0f-4cbb-abc0-855e43bce54c",
     "featured_collection_NxFqqg",
     "featured_collection_rGCDA3",
-    "3579aec0-4239-4edf-a882-80d59e20d912",
     "featured_collection_W4yHD9",
+    "3579aec0-4239-4edf-a882-80d59e20d912",
     "featured_collection_YpAhLW",
     "2d649a6d-af4e-44d3-a1e2-367f20dd89a7",
     "multicolumn",
