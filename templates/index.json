@@ -42,7 +42,7 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday June 14th, 2026</strong></h3><h5><em>(Place your Order by Thursday June  11th by 6:00PM)</em></h5><h5></h5><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday June 21st, 2026</strong></h3><h5><em>(Place your Order by Thursday June  18th by 6:00PM)</em></h5><h5></h5><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
         "collection": "june-14-2026",
@@ -66,7 +66,6 @@
     },
     "featured_collection_NxFqqg": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
