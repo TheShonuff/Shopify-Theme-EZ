@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday June 21st, 2026</strong></h3><h5><em>(Place your Order by Thursday June  18th by 6:00PM)</em></h5><h5></h5><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday June 28th, 2026</strong></h3><h5><em>(Place your Order by Thursday June  25th by 6:00PM)</em></h5><h5></h5><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "june-29-2025",
+        "collection": "june-28-2026",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
@@ -94,6 +94,7 @@
     },
     "featured_collection_rGCDA3": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Cinnamon Rolls by \"Rolled Out Bakery\"",
