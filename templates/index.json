@@ -66,7 +66,6 @@
     },
     "featured_collection_NxFqqg": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
@@ -75,8 +74,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "ala-cart",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
