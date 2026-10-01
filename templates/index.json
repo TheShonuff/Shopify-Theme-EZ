@@ -66,6 +66,7 @@
     },
     "featured_collection_NxFqqg": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
