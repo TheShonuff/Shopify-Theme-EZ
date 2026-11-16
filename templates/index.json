@@ -42,10 +42,10 @@
       "settings": {
         "title": "This Weeks Freshly Prepped Meals",
         "heading_size": "h1",
-        "description": "<h3><strong>Next Delivery Day: Sunday November 15th, 2026</strong></h3><h5><em>(Place your Order by Thursday November 12h by 6:00PM)</em></h5><h2></h2><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
+        "description": "<h3><strong>Next Delivery Day: Sunday November 22nd, 2026</strong></h3><h5><em>(Place your Order by Thursday November 19th by 6:00PM)</em></h5><h5></h5><h5><em>***CLOSED THE WEEK AFTER THANKSGIVING - NO DELIVERIES SUNDAY NOVEMBER 29TH****</em></h5><h2></h2><h4></h4><h4></h4><h3></h3><h3></h3><h3></h3><h3></h3><h3></h3><h4></h4><h4></h4><h4></h4><h4></h4>",
         "show_description": false,
         "description_style": "body",
-        "collection": "november-15-2026",
+        "collection": "november-22-2026-week-before-thanksgiving",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
